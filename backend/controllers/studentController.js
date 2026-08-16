@@ -1,4 +1,4 @@
-const Student = require("../models/Student");
+const Student = require("../models/student");
 const cloudinary = require("../config/cloudinary");
 
 const createStudent = async (req, res) => {
