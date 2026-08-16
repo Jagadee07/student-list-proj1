@@ -1,6 +1,4 @@
-const API_URL =
-  `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/students`;
-
+const API_URL = "https://student-list-backend-q22d.onrender.com/students";
 export const getStudents = async () => {
   const response = await fetch(API_URL);
 
